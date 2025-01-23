@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const axios = require("axios");
 const apiKey = process.env.API_KEY;
-const location = "Auckland";
+const location = "Santiago";
 const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
 
 async function getWeather() {
